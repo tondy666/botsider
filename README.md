@@ -1,2 +1,1 @@
-# Botsider
-Bot publick
+git clone github.com/Giananda/Aa
