@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import Aan
+from Aan.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 import time,random,sys,re,os,json,subprocess,threading,string,codecs,requests,tweepy,ctypes,urllib,urllib2,wikipedia,tempfile,glob,shutil,unicodedata,goslate
 from gtts import gTTS
 
 
-#kk = LINETCR.LINE()
+#kk = Aan.LINE()
 #kk.login(qr=True)
 #kk.loginResult()
 
-cl = LINETCR.LINE()
+cl = Aan.LINE()
 cl.login(token="EnfwKuIPDI6HGMcj4uEd.3OW3EdxawiI/Y43HJmwQlq.DSetcQiZ6kWrO0oKJhdcROL1Wkz0rzPZvqJCBTNTAtg=")
 cl.loginResult()
 
